@@ -16,15 +16,16 @@ Nous cherchons à reproduire numériquement cette transition à l’aide du syst
 Le système de Rayleigh–Bénard correspond à un problème de mécanique des fluides où les effets de flottabilité induits par un gradient de température provoquent l’apparition de structures convectives.  
 Lorenz (1963) a proposé une simplification de ce système sous la forme d’un ensemble de trois équations différentielles non linéaires :
 
-\[
-\begin{cases}
-\dot X = \sigma (Y - X) \\
-\dot Y = rX - Y - XZ \\
-\dot Z = XY - bZ
-\end{cases}
-\]
+$$
+\begin{aligned}
+\dot{X} &= \sigma (Y - X) \\
+\dot{Y} &= rX - Y - XZ \\
+\dot{Z} &= XY - bZ
+\end{aligned}
+$$
 
 où :
+
 - \( \sigma \) est le nombre de Prandtl,  
 - \( r \) est le paramètre de Rayleigh réduit,  
 - \( b \) est un paramètre géométrique.  
@@ -59,6 +60,7 @@ Différentes valeurs du paramètre \( r \) et des conditions initiales ont été
 ## Résultats
 
 L’étude met en évidence trois régimes principaux :
+
 - Pour \( r < 1 \) : conduction pure (état stable, absence de mouvement).  
 - Pour \( 1 < r < 30 \) : convection stationnaire (deux points d’équilibre stables).  
 - Pour \( r > 30 \) : convection chaotique (trajectoires apériodiques et sensibilité extrême aux conditions initiales).
