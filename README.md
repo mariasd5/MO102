@@ -24,13 +24,16 @@ $$
 \end{aligned}
 $$
 
-où :
+avec :
 
-- \( \sigma \) est le nombre de Prandtl,  
-- \( r \) est le paramètre de Rayleigh réduit,  
-- \( b \) est un paramètre géométrique.  
+\[
+\sigma : \text{ nombre de Prandtl} \\
+r : \text{ paramètre de Rayleigh réduit} \\
+b : \text{ paramètre géométrique}
+\]
 
-Ce système présente un comportement déterministe mais non prédictible à long terme pour certaines valeurs de \( r \) : c’est l’un des exemples classiques de chaos déterministe.
+Ce système présente un comportement déterministe mais non prédictible à long terme pour certaines valeurs de \( r \).  
+Il constitue l’un des exemples classiques de chaos déterministe.
 
 ## Implémentation numérique
 
