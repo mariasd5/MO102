@@ -26,11 +26,11 @@ $$
 
 avec :
 
-\[
-\sigma : \text{ nombre de Prandtl} \\
-r : \text{ paramètre de Rayleigh réduit} \\
-b : \text{ paramètre géométrique}
-\]
+| Symbole | Signification |
+|----------|----------------|
+| \( \sigma \) | Nombre de Prandtl |
+| \( r \) | Paramètre de Rayleigh réduit |
+| \( b \) | Paramètre géométrique |
 
 Ce système présente un comportement déterministe mais non prédictible à long terme pour certaines valeurs de \( r \).  
 Il constitue l’un des exemples classiques de chaos déterministe.
