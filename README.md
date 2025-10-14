@@ -26,9 +26,9 @@ $$
 
 avec :
 
-- $ \sigma $ : nombre de Prandtl  
-- $ r $ : paramètre de Rayleigh réduit  
-- $ b $ : paramètre géométrique
+- $\sigma$ : nombre de Prandtl  
+- $r$ : paramètre de Rayleigh réduit  
+- $b$ : paramètre géométrique
 
 
 Ce système présente un comportement déterministe mais non prédictible à long terme pour certaines valeurs de \( r \).  
